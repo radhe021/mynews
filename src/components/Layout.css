@@ -1,0 +1,11 @@
+.app-body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-footer{
+  margin-top: auto 0;
+}
+.logo-img{
+  padding-top: 1px;
+}

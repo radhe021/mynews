@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"),
+   url("./resources//Helvetica-Font/Helvetica.ttf") format("truetype");
+  font-weight:normal;
+  }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img.card-img-top {
+  height: 300px;
+  width: 550px;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+.card.bg-success {
+  background-color: hsl(180, 8%, 80%);
+}
+.text-center.card.bg-Dark.border-primary {
+  background-color: hsla(198, 26%, 85%, 0.411);
+  border-radius: 10px;
+}
+
+.text-center.card.bg-Dark.border-primary {
+  margin-left: 176px;
+}
+strong {
+  padding-left: 2px;  
+  padding-right: 2px;
+}
+h5.card-header {
+  padding-top: 0.8rem;
+}
+p.card-text {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+header {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background-color:hsl(180, 8%, 80%) ;
+}
+
+footer {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: hsl(180, 8%, 80%);
 }
