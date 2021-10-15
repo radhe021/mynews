@@ -1,0 +1,2 @@
+# mynews
+A News app
