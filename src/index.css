@@ -22,7 +22,7 @@ img.card-img-top {
   height: 300px;
   width: 550px;
   border-radius: 10px;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .card.bg-success {
   background-color: hsl(180, 8%, 80%);
@@ -33,7 +33,10 @@ img.card-img-top {
 }
 
 .text-center.card.bg-Dark.border-primary {
-  margin-left: 176px;
+  margin-left: 0px;
+  width: 58rem;
+  border-color: #c70606;
+  border: 2px solid #c70606;
 }
 strong {
   padding-left: 2px;  

@@ -1,5 +1,7 @@
-import React from 'react'
-import {Button,Col,Row,Card,} from 'react-bootstrap'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React from 'react';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Button, Card, Col, Row } from 'react-bootstrap';
 
 function CardGrid() {
   return (
@@ -19,7 +21,7 @@ function CardGrid() {
     </Col>
   ))}
 </Row>
-  )
+  );
 }
 
-export default CardGrid
+export default CardGrid;
