@@ -1,5 +1,7 @@
 /* eslint-disable import/extensions */
 /** @format */
+import React from 'react';
+
 import './App.css';
 
 import { useReducer } from 'react';

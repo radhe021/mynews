@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-implied-eval */
 /* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable import/extensions */
+import React from 'react';
+
 import './../resources/css/Province.css';
 
 import {  useEffect, useState  } from 'react';

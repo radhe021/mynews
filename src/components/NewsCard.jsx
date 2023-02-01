@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Card } from 'react-bootstrap';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

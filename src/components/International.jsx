@@ -2,7 +2,7 @@
 /* eslint-disable simple-import-sort/imports */
 /* eslint-disable @typescript-eslint/no-implied-eval */
 
-import { useEffect, useState } from 'react';
+import react,{ useEffect, useState } from 'react';
 import getinternationalNewsAPI from '../apiServices/internationalAPI';
 import NewsGrid from './NewsGrid';
 

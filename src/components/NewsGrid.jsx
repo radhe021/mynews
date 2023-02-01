@@ -4,9 +4,8 @@ import { Spinner } from 'react-bootstrap';
 
 // import styles from './../resources/css/card.css';
 import createNewsCard  from './NewsCard';
+function NewsGrid({articles}) {
 
-
-function NewsGrid(articles) {
   return <div className="container card-container">
     <div className="row align-items-center ">
       <h3>Here are top headlines</h3>

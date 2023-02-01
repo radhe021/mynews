@@ -6,6 +6,7 @@
  */
 
 /** @format */
+import React from 'react'
 import './Layout.css';
 
 import { Col, Image, Row } from 'react-bootstrap';

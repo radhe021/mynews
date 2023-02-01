@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable simple-import-sort/imports */
 /* eslint-disable @typescript-eslint/no-implied-eval */
-
+import React from 'react';
 import { useEffect, useState } from 'react';
 import technologyAPI from './../apiServices/technologyAPI';
 import NewsGrid from './NewsGrid';
